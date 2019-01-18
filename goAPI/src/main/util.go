@@ -1,7 +1,7 @@
 package main
 
 import (
-	"../calc"
+	"calc"
 	"fmt"
 	gocache "github.com/pmylund/go-cache"
 	"github.com/valyala/fasthttp"

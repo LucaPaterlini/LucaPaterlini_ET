@@ -1,7 +1,7 @@
 package main
 
 import (
-	"../config"
+	"config"
 	"flag"
 	cors "github.com/AdhityaRamadhanus/fasthttpcors"
 	gocache "github.com/pmylund/go-cache"

@@ -1,6 +1,9 @@
 package config
 
-import "os"
+import (
+	"os"
+	"path/filepath"
+)
 
 const (
 	PORT = 8080
@@ -8,9 +11,7 @@ const (
 	ERRPATH =  "{\"error\":\"Unsupported Path\"}"
 )
 
-var DefaultPath,_ = os.Getwd()
-
-func init() {
-	DefaultPath +="/storage"
-}
+var DefaultPath = os.Getenv("GOPATH")
+var DefaultPathStorage = filepath.Join(DefaultPath,"/storage")
+var DefaultPathPythonScript =  filepath.Join(DefaultPath,"/pythonScriptStatsFiles/script.py")
 

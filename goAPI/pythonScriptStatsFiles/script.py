@@ -1,6 +1,6 @@
 # Development choice
 # I have choose to avoid the hidden files and directories
-
+#!/usr/bin/python3
 import json
 import os
 import re

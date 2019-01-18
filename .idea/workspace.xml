@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="088ff6bd-1685-47f0-9f86-76c93c7af707" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/goAPI/src/calc/calc.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/goAPI/src/calc/calc_test.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/goAPI/src/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goAPI/src/coreFunctions/core.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goAPI/src/coreFunctions/coreFunctions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goAPI/src/coreFunctions/coreFunctions_test.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/goAPI/src/endpointsHandler/APIHandler.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/goAPI/src/endpointsHandler/APIHandler_test.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/goAPI/src/endpointsHandler/utiil.go" afterDir="false" />
@@ -25,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonScriptStatsFiles/script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
+            <state relative-caret-position="975">
               <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
             </state>
           </provider>
@@ -33,7 +36,20 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goAPI/src/calc/calc.go">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -50,18 +66,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goAPI/src/config/config.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="180">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goAPI/src/coreFunctions/core_test.go">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/goAPI/src/coreFunctions/coreFunctions_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/goAPI/src/coreFunctions/coreFunctions.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -76,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
+            <state relative-caret-position="765">
               <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
@@ -111,6 +140,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/goAPI" />
+      </list>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -123,10 +159,13 @@
         <option value="$PROJECT_DIR$/goAPI/src/main/main.go" />
         <option value="$PROJECT_DIR$/goAPI/src/coreFunctions/hello.go" />
         <option value="$PROJECT_DIR$/goAPI/src/coreFunctions/core.go" />
+        <option value="$PROJECT_DIR$/goAPI/src/calc/calc.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/goAPI/src/coreFunctions/core_test.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="30" />
     <option name="width" value="1366" />
     <option name="height" value="738" />
@@ -149,26 +188,6 @@
               <item name="LucaPaterlini_ET" type="462c0819:PsiDirectoryNode" />
               <item name="goAPI" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LucaPaterlini_ET" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LucaPaterlini_ET" type="462c0819:PsiDirectoryNode" />
-              <item name="goAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LucaPaterlini_ET" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LucaPaterlini_ET" type="462c0819:PsiDirectoryNode" />
-              <item name="goAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="coreFunctions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LucaPaterlini_ET" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LucaPaterlini_ET" type="462c0819:PsiDirectoryNode" />
-              <item name="goAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -179,11 +198,15 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -207,35 +230,63 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main/">
-    <configuration name="go build main/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.coreFunctions_test.go">
+    <configuration name="TestCreateFillFile in core_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LucaPaterlini_ET" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$/goAPI/src/main/main.go" />
-      <directory value="$PROJECT_DIR$/goAPI/src/main" />
+      <working_directory value="$PROJECT_DIR$/goAPI/src/coreFunctions" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/goAPI/src/coreFunctions/core_test.go" />
+      <pattern value="^TestCreateFillFile$" />
       <method v="2" />
     </configuration>
-    <configuration name="script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="coreFunctions_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LucaPaterlini_ET" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonScript/script.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <working_directory value="$PROJECT_DIR$/goAPI/src/coreFunctions" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/goAPI/src/coreFunctions/coreFunctions_test.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="core_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="LucaPaterlini_ET" />
+      <working_directory value="$PROJECT_DIR$/goAPI/src/coreFunctions" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/goAPI/src/coreFunctions/core_test.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test coreFunctions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="LucaPaterlini_ET" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/goAPI/src/coreFunctions" />
+      <filePath value="$PROJECT_DIR$/goAPI/src/coreFunctions/coreFunctions_test.go" />
+      <pattern value="^TestCreateFillFile$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test coreFunctions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="LucaPaterlini_ET" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/goAPI/src/coreFunctions" />
+      <filePath value="$PROJECT_DIR$/goAPI/src/coreFunctions/core_test.go" />
+      <pattern value="^TestCreateFillFile$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test coreFunctions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="LucaPaterlini_ET" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/goAPI/src/coreFunctions" />
+      <filePath value="$PROJECT_DIR$/goAPI/src/coreFunctions/core_test.go" />
+      <pattern value="^TestCreateFillFile$" />
       <method v="2" />
     </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -261,11 +312,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main/" />
+      <item itemvalue="Go Test.TestCreateFillFile in core_test.go" />
+      <item itemvalue="Go Test.coreFunctions_test.go" />
+      <item itemvalue="Go Test.core_test.go" />
+      <item itemvalue="Go Test.go test coreFunctions" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main/" />
+        <item itemvalue="Go Test.coreFunctions_test.go" />
+        <item itemvalue="Go Test.go test coreFunctions" />
+        <item itemvalue="Go Test.core_test.go" />
+        <item itemvalue="Go Test.TestCreateFillFile in core_test.go" />
+        <item itemvalue="Go Test.go test coreFunctions" />
       </list>
     </recent_temporary>
   </component>
@@ -283,6 +341,32 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="go_test_coreFunctions - 2019.01.18 at 15h 05m 51s.xml">
+      <configuration name="go test coreFunctions" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_coreFunctions_(1) - 2019.01.18 at 15h 06m 23s.xml">
+      <configuration name="go test coreFunctions (1)" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_coreFunctions - 2019.01.18 at 15h 06m 53s.xml">
+      <configuration name="go test coreFunctions" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_coreFunctions1 - 2019.01.18 at 15h 08m 29s.xml">
+      <configuration name="go test coreFunctions1" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_coreFunctions1 - 2019.01.18 at 15h 12m 46s.xml">
+      <configuration name="go test coreFunctions1" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_coreFunctions1 - 2019.01.18 at 15h 13m 29s.xml">
+      <configuration name="go test coreFunctions1" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_coreFunctions1 - 2019.01.18 at 15h 14m 52s.xml">
+      <configuration name="go test coreFunctions1" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_coreFunctions - 2019.01.18 at 15h 30m 42s.xml">
+      <configuration name="go test coreFunctions" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="9222000" />
   </component>
@@ -296,15 +380,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1366" height="738" extended-state="0" />
+    <frame x="0" y="30" width="1366" height="738" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26818183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40065682" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3262295" />
@@ -312,7 +396,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32840723" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.37438422" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -367,21 +451,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3.6/codecs.py">
+    <entry file="file://$PROJECT_DIR$/pythonScriptStatsFiles/script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4800">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        <state relative-caret-position="975">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
+    <entry file="file://$PROJECT_DIR$/goAPI/src/calc/calc.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="360">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goAPI/src/coreFunctions/core_test.go">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goAPI/src/calc/calc_test.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/goAPI/src/main/main.go">
@@ -391,33 +482,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goAPI/src/calc/calc_test.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonScriptStatsFiles/script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goAPI/src/calc/calc.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goAPI/src/coreFunctions/core_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goAPI/src/coreFunctions/core_test.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/goAPI/src/config/config.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goAPI/src/coreFunctions/coreFunctions_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4800">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goAPI/src/coreFunctions/coreFunctions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>

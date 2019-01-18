@@ -1,7 +1,8 @@
 package main
 
 import (
-	"../endpointsHandler"
+	"config"
+	"endpointsHandler"
 	"github.com/valyala/fasthttp"
 )
 
@@ -11,12 +12,16 @@ func routingHandler (ctx *fasthttp.RequestCtx){
 
 	switch string(ctx.Path()) {
 
-	//Call n°0
-	case "/hello":
-		middlewareEndpoint(ctx,endpointsHandler.HandlerHello)
-
+	case "/createfile":
+		middlewareEndpoint(ctx,endpointsHandler.HandlerCreateFillFile)
+	case "/getcontentfile":
+		middlewareEndpoint(ctx,endpointsHandler.HandlerGetContentFile)
+	case "/deletefoldersub":
+		middlewareEndpoint(ctx,endpointsHandler.HandlerDeleteFolderSubs)
+	case "/getanaliticspath":
+		middlewareEndpoint(ctx,endpointsHandler.HandlerGetAnaliticsPath)
 	default:
-		ctx.Error(ERRPATH,fasthttp.StatusNotFound)
+		ctx.Error(config.ERRPATH,fasthttp.StatusNotFound)
 
 	}
 }
