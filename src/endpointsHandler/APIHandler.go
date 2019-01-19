@@ -2,6 +2,7 @@ package endpointsHandler
 
 import (
 	"coreFunctions"
+	"encoding/json"
 	"errors"
 )
 
@@ -57,11 +58,16 @@ func HandlerDeleteFolderSubs(d map[string]interface{})string{
 
 func HandlerGetAnaliticsPath(d map[string]interface{})string{
 	dict :=make(map[string]interface{})
+	var raw []map[string]map[string]interface{}
 	var err error
 	if checkKeys(d,[]string{"path"})==true {
 		msg,e := coreFunctions.GetAnaliticsPath(d["path"].(string))
 		err = e
-		dict = map[string]interface{}{"data": msg}
+		if err==nil{
+			err =json.Unmarshal([]byte(msg), &raw)
+			dict = map[string]interface{}{"data": raw}
+		}
+
 	}else{
 		err=errors.New("inputParams: wrong set of input parameters")
 	}
