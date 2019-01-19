@@ -1,11 +1,25 @@
-## Python Test
+## Go and Python TEst
 
-    Total number of files in that folder.
+The goal of this test is to produce an api and integrate into i a script written
+in python that perform operations of CRUD on the local storage
 
-    Average number of alphanumeric characters per text file (and standard deviation) in that folder.
+# Tech used
 
-    Average word length (and standard deviation) in that folder. 
+- Python 3 (script)
+- Golang 1.11 (api)
+- Docker (container)
 
-    Total number of bytes stored in that folder.
+# Testing
 
-    Note: All these computations must be calculated recursively from the provided path to the entry point.
+For your convenience I have added:
+ - unit tests in go
+ - postman tests on each endpoint
+ - dockerfile
+ - the executable compiled for linux os ready to be tested
+ 
+ # Run
+ 
+ 1 command line bash script have been added for your convenience
+ that bind the port 12345 on the host 
+ 
+ ` bash run.sh`

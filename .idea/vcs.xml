@@ -2,5 +2,32 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/goAPI/app/github.com/AdhityaRamadhanus/fasthttpcors" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/goAPI/app/github.com/asaskevich/govalidator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/goAPI/app/github.com/klauspost/compress" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/goAPI/app/github.com/klauspost/cpuid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/goAPI/app/github.com/pmylund/go-cache" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/goAPI/app/github.com/valyala/bytebufferpool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/goAPI/app/github.com/valyala/fasthttp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/goAPI/src/github.com/AdhityaRamadhanus/fasthttpcors" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/goAPI/src/github.com/asaskevich/govalidator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/goAPI/src/github.com/klauspost/compress" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/goAPI/src/github.com/klauspost/cpuid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/goAPI/src/github.com/pmylund/go-cache" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/goAPI/src/github.com/valyala/bytebufferpool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/goAPI/src/github.com/valyala/fasthttp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/AdhityaRamadhanus/fasthttpcors" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/asaskevich/govalidator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/klauspost/compress" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/klauspost/cpuid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/pmylund/go-cache" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/valyala/bytebufferpool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/valyala/fasthttp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/valyala/tcplisten" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/crypto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/net" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/sys" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/text" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/tools" vcs="Git" />
   </component>
 </project>
