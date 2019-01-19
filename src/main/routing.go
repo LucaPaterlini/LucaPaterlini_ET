@@ -18,7 +18,7 @@ func routingHandler (ctx *fasthttp.RequestCtx){
 		middlewareEndpoint(ctx,endpointsHandler.HandlerGetContentFile)
 	case "/getanaliticspath":
 		middlewareEndpoint(ctx,endpointsHandler.HandlerGetAnaliticsPath)
-	case "/replaceconentfile":
+	case "/replacecontentfile":
 		middlewareEndpoint(ctx,endpointsHandler.HandlerReplaceContentFile)
 	case "/deletefoldersub":
 		middlewareEndpoint(ctx,endpointsHandler.HandlerDeleteFolderSubs)

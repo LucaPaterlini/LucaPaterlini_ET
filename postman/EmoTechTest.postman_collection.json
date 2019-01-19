@@ -1,0 +1,253 @@
+{
+	"variables": [],
+	"info": {
+		"name": "EmoTechTest",
+		"_postman_id": "c5798405-895a-da9b-0099-85f9780b54f6",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateFillFile",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var serverData = JSON.parse(responseBody);",
+							"var JSONtoCompare = {",
+							"\t\"err\": false,",
+							"\t\"data\": {}",
+							"}; //set your predefined JSON here.",
+							"tests[\"Body is correct\"] = JSON.stringify(serverData) === JSON.stringify(JSONtoCompare);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"raw": "127.0.0.1:12345/createfile?filename=smile.txt&path=/sunshine/or/rain/&payload=smile always",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "12345",
+					"path": [
+						"createfile"
+					],
+					"query": [
+						{
+							"key": "filename",
+							"value": "smile.txt",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "path",
+							"value": "/sunshine/or/rain/",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "payload",
+							"value": "smile always",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Create a text file with some contents stored in a given path."
+			},
+			"response": []
+		},
+		{
+			"name": "GetContentFile",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var serverData = JSON.parse(responseBody);",
+							"var JSONtoCompare = {",
+							"    \"err\": false,",
+							"    \"data\": {",
+							"        \"content\": \"smile always\"",
+							"    }",
+							"}; //set your predefined JSON here.",
+							"tests[\"Body is correct\"] = JSON.stringify(serverData) === JSON.stringify(JSONtoCompare);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"raw": "127.0.0.1:12345/getcontentfile?filename=smile.txt&path=/sunshine/or/rain/",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "12345",
+					"path": [
+						"getcontentfile"
+					],
+					"query": [
+						{
+							"key": "filename",
+							"value": "smile.txt",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "path",
+							"value": "/sunshine/or/rain/",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Retrieve the contents of a text file under the given path."
+			},
+			"response": []
+		},
+		{
+			"name": "ReplaceConentFile",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var serverData = JSON.parse(responseBody);",
+							"var JSONtoCompare = {",
+							"\t\"err\": false,",
+							"\t\"data\": {}",
+							"}; //set your predefined JSON here.",
+							"tests[\"Body is correct\"] = JSON.stringify(serverData) === JSON.stringify(JSONtoCompare);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"raw": "127.0.0.1:12345/replacecontentfile?filename=smile.txt&path=/sunshine/or/rain/&payload=smile always in London",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "12345",
+					"path": [
+						"replacecontentfile"
+					],
+					"query": [
+						{
+							"key": "filename",
+							"value": "smile.txt",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "path",
+							"value": "/sunshine/or/rain/",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "payload",
+							"value": "smile always in London",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Replace the contents of a text file."
+			},
+			"response": []
+		},
+		{
+			"name": "GetAnaliticsPath",
+			"request": {
+				"url": {
+					"raw": "http://127.0.0.1:12345/getanaliticspath?path=sunshine",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "12345",
+					"path": [
+						"getanaliticspath"
+					],
+					"query": [
+						{
+							"key": "path",
+							"value": "sunshine",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "We would also need to get some statistics per folder basis and retrieve them through another entry point. These statistics are:\n\n    Total number of files in that folder.\n\n    Average number of alphanumeric characters per text file (and standard deviation) in that folder.\n\n    Average word length (and standard deviation) in that folder. \n\n    Total number of bytes stored in that folder.\n\n    Note: All these computations must be calculated recursively from the provided path to the entry point."
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteFolderSubs",
+			"request": {
+				"url": {
+					"raw": "http://127.0.0.1:12345/deletefoldersub?path=/sunshine/or/rain",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "12345",
+					"path": [
+						"deletefoldersub"
+					],
+					"query": [
+						{
+							"key": "path",
+							"value": "/sunshine/or/rain",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Delete the resource that is stored under a given path."
+			},
+			"response": []
+		}
+	]
+}
