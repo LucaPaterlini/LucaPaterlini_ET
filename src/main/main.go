@@ -1,3 +1,4 @@
+//Package main handle the main of the ET project
 package main
 
 import (

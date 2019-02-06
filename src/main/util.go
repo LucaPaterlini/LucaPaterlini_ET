@@ -7,7 +7,7 @@ import (
 	"log"
 	"net/url"
 )
-
+//logPanics  implements the panic handler
 func logPanics(function fasthttp.RequestHandler)fasthttp.RequestHandler{
 	return func(ctx *fasthttp.RequestCtx) {
 		defer func() {
@@ -18,7 +18,8 @@ func logPanics(function fasthttp.RequestHandler)fasthttp.RequestHandler{
 		function(ctx)
 	}
 }
-
+//middlewareEndpoint handle the endpoints call and recover in case of panic to keep
+//the service alive even if an endpoints fails and panic handling the http response
 func middlewareEndpoint(ctx *fasthttp.RequestCtx,f func(map[string]interface{})string){
 	query,err := url.QueryUnescape(ctx.QueryArgs().String())
 	if err==nil {

@@ -1,3 +1,4 @@
+// Package calc provides utility functions that requires only cpu and ram
 package calc
 
 import (
@@ -7,7 +8,8 @@ import (
 )
 
 
-// Parsing the query to a dictionary
+// ParseQueryStringToDict parse the query string (key=val&key1=val1)
+// and returns a dictionary 
 func ParseQueryStringToDict(a string) map[string]interface{}{
 	d := make(map[string]interface{})
 	if len(a)<1 {return d}

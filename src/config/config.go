@@ -1,3 +1,5 @@
+//Package config contain all the parameters and configurations of the project ET
+
 package config
 
 import (

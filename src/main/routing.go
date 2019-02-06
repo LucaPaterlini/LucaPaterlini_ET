@@ -6,7 +6,7 @@ import (
 	"github.com/valyala/fasthttp"
 )
 
-// routing
+//routingHandler implements the routing with all the calls the endpoints handlers
 func routingHandler (ctx *fasthttp.RequestCtx){
 	ctx.SetContentType("text/json; charset=utf-8")
 

@@ -1,3 +1,4 @@
+//Package coreFunctions implements the core functions of the CRUD operations of the ET file storage
 package coreFunctions
 
 import (
@@ -9,7 +10,7 @@ import (
 	"path/filepath"
 )
 
-
+//CreateFillFile create a text file with some contents stored in a given path.
 func CreateFillFile(filename,path,payload string,replace bool) (err error){
 	targetPath := filepath.Join(config.DefaultPathStorage,path)
 	targetPathAndFile := filepath.Join(targetPath,filename)
@@ -29,6 +30,7 @@ func CreateFillFile(filename,path,payload string,replace bool) (err error){
 	return
 }
 
+//GetContentFile retrieve the contents of a text file under the given path.
 func GetContentFile(filename,path string)(payload string, err error){
 	targetPathAndFile := filepath.Join(config.DefaultPathStorage,path,filename)
 	b, err := ioutil.ReadFile(targetPathAndFile)
@@ -37,6 +39,7 @@ func GetContentFile(filename,path string)(payload string, err error){
 	return
 }
 
+//DeleteFolderSubs retrieve the contents of a text file under the given path.
 func DeleteFolderSubs(path string)(err error){
 	targetPath := filepath.Join(config.DefaultPathStorage,path)
 	if _, err = os.Stat(targetPath); os.IsNotExist(err) {
@@ -45,6 +48,8 @@ func DeleteFolderSubs(path string)(err error){
 	err = os.RemoveAll(targetPath)
 	return
 }
+
+//GetAnaliticsPath retrieve the analytics of the folders and files under a given path.
 func GetAnaliticsPath(path string)(json string,err error){
 	targetPath := filepath.Join(config.DefaultPathStorage,path)
 	b, err := exec.Command("python3",config.DefaultPathPythonScript,targetPath).CombinedOutput()
