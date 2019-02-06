@@ -1,8 +1,30 @@
-## Go and Python TEst
+## Go and Python Test
 
-The goal of this test is to produce an api and integrate into i a script written
-in python that perform operations of CRUD on the local storage
+Write a rest webservice in Go that allows to operate over text files as resources. The minimum requirements for the service is:
 
+    Create a text file with some contents stored in a given path.
+
+    Retrieve the contents of a text file under the given path.
+
+    Replace the contents of a text file.
+
+    Delete the resource that is stored under a given path.
+
+
+We would also need to get some statistics per folder basis and retrieve them through another entry point. These statistics are:
+
+    Total number of files in that folder.
+
+    Average number of alphanumeric characters per text file (and standard deviation) in that folder.
+
+    Average word length (and standard deviation) in that folder. 
+
+    Total number of bytes stored in that folder.
+
+    Note: All these computations must be calculated recursively from the provided path to the entry point.
+
+
+Use all necessary libraries, including third-party libraries but make sure that they are easily fetched. Keep in mind that json is the transport format to be used.
 # Tech used
 
 - Python 3 (script)

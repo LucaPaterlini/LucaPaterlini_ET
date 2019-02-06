@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="088ff6bd-1685-47f0-9f86-76c93c7af707" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pythonScriptStatsFiles/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pythonScriptStatsFiles/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calc/calc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/calc/calc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coreFunctions/coreFunctions.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/coreFunctions/coreFunctions.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/endpointsHandler/APIHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/endpointsHandler/APIHandler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/endpointsHandler/utiil.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/endpointsHandler/utiil.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/klauspost/compress" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/klauspost/compress" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/klauspost/compress/flate/gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/klauspost/compress/flate/gen.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/klauspost/cpuid" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/klauspost/cpuid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/klauspost/cpuid/private-gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/klauspost/cpuid/private-gen.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/valyala/fasthttp" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/valyala/fasthttp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/valyala/fasthttp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/valyala/fasthttp/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/routing.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routing.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/util.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -223,6 +213,11 @@
             <path>
               <item name="LucaPaterlini_ET" type="b2602c69:ProjectViewProjectNode" />
               <item name="LucaPaterlini_ET" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LucaPaterlini_ET" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LucaPaterlini_ET" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
